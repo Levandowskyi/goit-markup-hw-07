@@ -93,6 +93,9 @@
     <symbol id="pencil" viewBox="0 0 32 32">
       <path d="M12 20l4-2 14-14-2-2-14 14-2 4zM9.041 27.097c-0.989-2.085-2.052-3.149-4.137-4.137l3.097-8.525 4-2.435 12-12h-6l-12 12-6 20 20-6 12-12v-6l-12 12-2.435 4z"></path>
     </symbol>
+    <symbol id="menu-hamburger" viewBox="0 0 47 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.96 29.154h42.965M1.96 15.615h42.965M1.96 2.077h42.965"></path>
+    </symbol>
 
   </defs>
 </svg>
