@@ -1,0 +1,201 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.fontSize": 16,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment"
+        ],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#35f913" // change color only for the comment text
+        }
+      },
+      // color of attributes
+      {
+        "scope": [
+          "entity.other.attribute-name.html"
+        ],
+        "settings": {
+          "foreground": "#72e5f9"
+        }
+      },
+      //color of class names
+      {
+        "scope": [
+          "string.quoted.double.html",
+          "entity.other.attribute-name.class.css"
+        ],
+        "settings": {
+          "foreground": "#f5ec70"
+        }
+      },
+      // color of start quotes
+      {
+        "scope": [
+          "punctuation.definition.string.begin.html"
+        ],
+        "settings": {
+          "foreground": "#f80505"
+        }
+      },
+      //color of end quotes
+      {
+        "scope": [
+          "punctuation.definition.string.end.html"
+        ],
+        "settings": {
+          "foreground": "#f80505"
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.comment.html"
+        ],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#35f913"
+          // change color only for the punctuation
+        }
+      },
+      {
+        "scope": [
+          "entity.name.tag.html"
+        ],
+        "settings": {
+          "foreground": "#db4e08"
+          // change color only for tag
+        }
+      },
+      {
+        "scope": [
+          "support.type.property-name.css"
+        ],
+        "settings": {
+          "foreground": "#daa4f3"
+          // change color only for property-name.css
+        }
+      },
+      {
+        "scope": [
+          "constant.numeric.css"
+        ],
+        "settings": {
+          "foreground": "#fc7d07"
+          // change color only for numeric.css
+        }
+      },
+      {
+        "scope": [
+          "keyword.other.unit.px.css"
+        ],
+        "settings": {
+          "foreground": "#2bf421"
+          // change color only for unit.px.css
+        }
+      },
+      {
+        "scope": [
+          "keyword.other.unit.em.css"
+        ],
+        "settings": {
+          "foreground": "#2bf421"
+          // change color only for unit.em.css
+        }
+      },
+      {
+        "scope": [
+          "entity.other.attribute-name.pseudo-class.css"
+        ],
+        "settings": {
+          "foreground": "#dc0909"
+          // change color only for pseudo-class.css
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.entity.css"
+        ],
+        "settings": {
+          "foreground": "#59d6f1"
+          // change color only for entity.css
+        }
+      },
+      {
+        "scope": [
+          "entity.other.attribute-name.class.css"
+        ],
+        "settings": {
+          "foreground": "#faac36"
+          // change color only for entity.css
+        }
+      },
+      {
+        "scope": [
+          "support.function.misc.css"
+        ],
+        "settings": {
+          "foreground": "#f24414"
+          // change color only for entity.css
+        }
+      },
+
+      {
+        "scope": [
+          "punctuation.terminator.rule.css"
+        ],
+        "settings": {
+          "foreground": "#f90505"
+          // change color only for entity.css
+        }
+      },
+
+      {
+        "scope": [
+          "text.html.derivative"
+        ],
+        "settings": {
+          "foreground": "#e5e2e2"
+          // change color only for entity.css
+        }
+      },
+      {
+        "scope": [
+          "string.quoted.single.css"
+        ],
+        "settings": {
+          "foreground": "#f50808"
+          // change color only for quoted.css
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.comment.end.css"
+        ],
+        "settings": {
+          "foreground": "#f432b3"
+          // change color only for comment.end.css
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.comment.begin.css"
+        ],
+        "settings": {
+          "foreground": "#f432b3"
+          // change color only for comment.begin.css
+        }
+      },
+    {
+      "scope": [
+        "meta.selector.css"
+      ],
+      "settings": {
+        "foreground": "#57a4ec"
+        // change color only for comment.begin.css
+      }
+    }
+    ]
+  }
+}
