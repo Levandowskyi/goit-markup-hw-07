@@ -309,6 +309,7 @@ img {
       ),
       url(../images/hero/hero-tab@1x.jpg);
   }
+  
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -1252,3 +1253,5 @@ img {
 .form-check-input:checked + .form-icon-check > .checked {
   opacity: 1;
 }
+
+
