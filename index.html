@@ -144,13 +144,30 @@
         <h2 class="title">What are we doing</h2>
         <ul class="doing-list">
           <li class="doing-list-item">
-            <img src="./images/work/pc.jpg" alt="img PC" width="360" />
+            <img 
+            srcset="./images/work/pc@1x.jpg 1x, ./images/work/pc@2x.jpg 2x"
+            src="./images/work/pc@1x.jpg"
+            alt="pc"
+            width="360"
+            />
           </li>
           <li class="doing-list-item">
-            <img src="./images/work/mobil.jpg" alt="img Mobile" width="360" />
+            <img 
+            <img 
+            srcset="./images/work/app@1x.jpg 1x, ./images/work/app@2x.jpg 2x"
+            src="./images/work/app@1x.jpg"
+            alt="app"
+            width="360"
+            />
           </li>
           <li class="doing-list-item">
-            <img src="./images/work/app.jpg" alt="img App" width="360" />
+            <img 
+            <img 
+            srcset="./images/work/mobil@1x.jpg 1x, ./images/work/mobil@2x.jpg 2x"
+            src="./images/work/mobil@1x.jpg"
+            alt="mobil"
+            width="360"
+            />
           </li>
         </ul>
       </div>
@@ -159,11 +176,16 @@
     <!-- Section 4 -->
 
     <section class="section-team">
-      <div class="container">
+      <div class="team-container container">
         <h2 class="title">Our Team</h2>
         <ul class="team-list list">
           <li class="team-list-item">
-            <img src="./images/team/mark.jpg" alt="foto Mark" width="264" />
+            <img 
+            srcset="./images/team/mark@1x.jpg 1x, ./images/team/mark@2x.jpg 2x" 
+            src="./images/team/mark@1x.jpg"
+            alt="Mark"
+            width="264"/>
+            
             <div class="descr-container">
               <h3 class="team-title">Mark Guerrero</h3>
               <p class="team-descr">Product Designer</p>
@@ -201,7 +223,10 @@
             </div>
           </li>
           <li class="team-list-item">
-            <img src="./images/team/tom.jpg" alt="foto Tom" width="264" />
+            <img srcset="./images/team/tom@1x.jpg 1x, ./images/team/tom@2x.jpg 2x" 
+            src="./images/team/tom@1x.jpg"
+            alt="Tom"
+            width="264"/>
             <div class="descr-container">
               <h3 class="team-title">Tom Ford</h3>
               <p class="team-descr">Frontend Developer</p>
@@ -238,7 +263,10 @@
             </div>
           </li>
           <li class="team-list-item">
-            <img src="./images/team/camila.jpg" alt="foto Camila" width="264" />
+            <img srcset="./images/team/camila@1x.jpg 1x, ./images/team/camila@2x.jpg 2x" 
+            src="./images/team/camila@1x.jpg"
+            alt="Camila"
+            width="264"/>
             <div class="descr-container">
               <h3 class="team-title">Camila Garcia</h3>
               <p class="team-descr">Marketing</p>
@@ -275,7 +303,10 @@
             </div>
           </li>
           <li class="team-list-item">
-            <img src="./images/team/daniel.jpg" alt="foto Daniel" width="264" />
+            <img ssrcset="./images/team/danie@1x.jpg 1x, ./images/team/daniel@2x.jpg 2x" 
+            src="./images/team/daniel@1.jpg"
+            alt="Daniel"
+            width="264"/>
             <div class="descr-container">
               <h3 class="team-title">Daniel Wilson</h3>
               <p class="team-descr">UI Designer</p>
@@ -317,8 +348,8 @@
 
     <!-- Section 5 Customers -->
 
-    <!-- <section class="customers-section">
-      <div class="container">
+    <section class="customers-section">
+      <div class="customers-container container">
         <h2 class="title">Customers</h2>
         <ul class="customers-list">
           <li class="customers-item">
@@ -368,12 +399,12 @@
           </li>
         </ul>
       </div>
-    </section>-->
+    </section>
   </main> 
 
   <!-- Footer -->
 
-  <!-- <footer class="site-footer">
+  <footer class="site-footer">
     <div class="footer-container container">
       <div class="footer-descr">
         <a class="footer-logo link" href="./index.html">Web<span class="footer-color-logo">Studio</span></a>
@@ -415,11 +446,11 @@
             </a>
           </li>
         </ul>
-      </div> -->
+      </div>
 
       <!-- Footer form Subscribe -->
 
-      <!-- <div class="footer-form-wrapper">
+      <div class="footer-form-wrapper">
         <p class="footer-form-title">Subscribe</p>
         <form class="footer-form">
           <label class="footer-form-field">
@@ -436,7 +467,7 @@
       </div>
 
     </div>
-  </footer> -->
+  </footer>
 
   <!-- Modal Window -->
   <div class="backdrop is-hidden" data-modal>
