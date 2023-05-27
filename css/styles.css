@@ -979,7 +979,6 @@ img {
 }
 
 
-
 .footer-form-input {
   width: 100%;
   height: 100%;
@@ -1414,10 +1413,17 @@ img {
   opacity: 1;
 }
 
+<<<<<<< Updated upstream
 /* Burger menu */
 
 .menu-toggle {
   stroke: #2e2f42;
+=======
+
+/* Menu burger */
+
+.menu-toggle {
+>>>>>>> Stashed changes
   min-height: 40px;
   min-width: 40px;
   display: flex;
@@ -1435,7 +1441,11 @@ img {
 
 @media (min-width: 768px) {
   .menu-toggle {
+<<<<<<< Updated upstream
     display: none;
+=======
+      display: none;
+>>>>>>> Stashed changes
   }
 }
 
@@ -1533,6 +1543,7 @@ img {
 
 @media only screen and (min-width: 320px) {
   .tel {
+<<<<<<< Updated upstream
     font-size: 24px;
   }
 
@@ -1540,6 +1551,15 @@ img {
     .tel {
       font-size: 36px;
     }
+=======
+      font-size: 24px;
+  }
+
+  @media only screen and (min-width: 428px) {
+      .tel {
+          font-size: 36px;
+      }
+>>>>>>> Stashed changes
   }
 }
 
@@ -1559,6 +1579,7 @@ img {
 
 @media only screen and (min-width: 320px) {
   .mobile-socials {
+<<<<<<< Updated upstream
     gap: 26px;
   }
 
@@ -1566,5 +1587,14 @@ img {
     .mobile-socials {
       gap: 56px;
     }
+=======
+      gap: 26px;
+  }
+
+  @media only screen and (min-width: 428px) {
+      .mobile-socials {
+          gap: 56px;
+      }
+>>>>>>> Stashed changes
   }
 }
