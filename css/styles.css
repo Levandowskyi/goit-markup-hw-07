@@ -1185,8 +1185,9 @@ img {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
 
-  width: 408px;
+  max-width: 408px;
   min-height: 576px;
+  width: 100%;
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 72px;
